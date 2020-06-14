@@ -47,7 +47,7 @@ Steps to execute
     - elasticsearch1 for crud data
     - logstash* for logs data
 10. Go to discover menu and select and index and search any data either crud data or logs data
-11. Create visulizations based on the searched data
+11. Create visualizations based on the searched data
 12. Go to dashboards and add the creaed visualizations as shown below
  
-<img width="900" alt="API Architecture" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-visualization.bmp">
+<img width="900" alt="Kibana Visualization" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-visualization.bmp">
