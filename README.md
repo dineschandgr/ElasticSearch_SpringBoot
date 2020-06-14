@@ -50,4 +50,4 @@ Steps to execute
 11. Create visulizations based on the searched data
 12. Go to dashboards and add the creaed visualizations as shown below
  
-<img width="500" alt="API Architecture" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-visualization.bmp">
+<img width="900" alt="API Architecture" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-visualization.bmp">
