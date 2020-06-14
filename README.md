@@ -52,6 +52,10 @@ Steps to execute
  
 <img width="900" alt="Kibana Visualization" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-visualization.bmp">
 
+Kibana Search
+
+<img width="900" alt="Kibana Search" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-search.PNG">
+
 Search Results from Query DSL
 
 1. multifields_firstName_age
