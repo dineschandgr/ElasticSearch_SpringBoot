@@ -1,14 +1,14 @@
 # ElasticSearch_SpringBoot
-Elastic Search using Spring Boot
+Elastic Search ELK stack using Spring Boot
 
 There are 2 resource flows in this project
 
-1. CRUD Operation using ElasticsearchRepository
+1. CRUD Operation using ElasticsearchRepository - CustomerController
   
   - to create,update,delete,retrieve data from the indexes
   - The retrieve operation is limited
   
-2. Query data from indexes using DSL (Domain Specific Language)
+2. Query data from indexes using DSL (Domain Specific Language) - ManualSearchResource
   - Retrieve data from index using criteria like multiple fields, wildcard etc
   
 
