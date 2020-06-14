@@ -58,3 +58,7 @@ Search Results from Query DSL
 
 <img width="900" alt="multifields_firstName_age" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/multifields_firstName_age.bmp">
 
+2. search_firstName_lastName_wildcard.bmp
+
+<img width="900" alt="search_firstName_lastName_wildcard.bmp" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/search_firstName_lastName_wildcard.bmp">
+
