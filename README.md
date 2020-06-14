@@ -51,3 +51,10 @@ Steps to execute
 12. Go to dashboards and add the creaed visualizations as shown below
  
 <img width="900" alt="Kibana Visualization" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/kibana-visualization.bmp">
+
+Search Results from Query DSL
+
+1. multifields_firstName_age
+
+<img width="900" alt="multifields_firstName_age" src="https://github.com/dineschandgr/ElasticSearch_SpringBoot/blob/master/Search_results_screenshot/multifields_firstName_age.bmp">
+
