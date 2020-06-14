@@ -1,0 +1,123 @@
+Elastic Search, Logstash and Kibana all provided by the company Elastic
+
+Use case:
+
+1. To filter and visualize the errors in the application eg: queue or db connection error
+2. To find out the number of times an api is called
+3. To trace the requests across microservices using the spring sleuth tracing id
+4. To search data uing indexes like Google Autocomplete (Query DSL)
+
+There are 2 ways of inserting data into Elastic Search
+
+1. By crud operations using Elastic Search - Spring Data API
+2. By using logstash to insert logs directly
+
+
+Elastic Search
+
+- provide cluster name and path to index folder in elasticsearch.yml file
+- runs on port 9200 as rest endpoint
+- node endpoint is 9300
+- Uses inverted index
+- Search data from the index and finds the corresponding records in the document
+- We can specify the shards
+- We should provide cluster nmae and the url
+
+
+Kibana
+
+- runs on port 5601
+- we should provide the elasticsearch url to kibana in kibana.yml file
+
+1. Create an index pattern
+2. In discover menu, specify a search term to filter the logstash
+3. Create visualizations for the search terms
+4. Add the visualizations in the dashboards
+
+- use devtools to execute query on indexes
+
+
+logstash pipelines
+
+- it has 3 stages
+	1. Input
+	2. Filters
+	3. Output
+- specify the log file as input
+- we filter out the log lines required for index
+- we have to specify the output path i.e elasticsearch
+
+use following urls in postman
+
+url to find index
+
+http://localhost:9200/_cat/indices/?v
+
+url to find data inside index
+
+http://localhost:9200/logstash-2020.06.13-000001/_search
+
+
+
+Query DSL (Domain Specific Language)
+
+- to convert complex queries to json
+
+2 types of clauses
+
+- Leaf Query Clauses
+- Compound Query Clauses
+
+
+
+Elastic Search APIs
+
+1. Document API
+2. Index API
+3. Cluster API
+
+
+Index APi searh
+
+--get all data
+
+GET _search
+{
+
+"query": {
+  "match": {
+    "age": "Dinesh"
+    
+  }
+}
+}
+
+--get by range
+
+GET _search
+{
+
+"query": {
+  "range": {
+    "age": {
+      "gte":3,
+      "lte": 33
+    }
+    
+  }
+}
+}
+
+--get data by multiple fields
+
+GET _search
+{
+
+"query": {
+  "multi_match": {
+    "query": "mugund",
+    "fields": ["firstName","lastName"]
+    
+  }
+}
+}
