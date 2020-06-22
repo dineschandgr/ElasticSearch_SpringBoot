@@ -43,7 +43,7 @@ Steps to execute
 6. call this endpoint to retrieve data http://localhost:8080/findByFirstName/{firstName}
 7. call this endpoint to search by either firstname or age http://localhost:8080/manual/search/multifields/{firstName}/{age}
 8. call this endpoint to search by a single value in both firstName and lastName field. Also it searches by wildcard *          http://localhost:8080/manual/search/searchall/{text}
-9. Click on management menu in Kibana and create index pattern by filtering the index. 
+9. Kibana end point is localhost:5601 Click on management menu in Kibana and create index pattern by filtering the index. 
     - elasticsearch1 for crud data
     - logstash* for logs data
 10. Go to discover menu and select and index and search any data either crud data or logs data
